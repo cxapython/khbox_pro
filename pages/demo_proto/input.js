@@ -1,6 +1,6 @@
 /**
  * KhBox 原型链、toString 保护、Illegal Invocation 测试 Demo
- * 
+ *
  * 测试内容：
  * 1. 原型链继承关系
  * 2. toString 伪装检测
