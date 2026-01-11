@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原型链 & 保护机制测试</title>
+</head>
+<body>
+    <h1>KhBox 原型链 & 保护机制测试页面</h1>
+    
+    <div id="app">
+        <p>这是一个用于测试原型链、toString 保护和 Illegal Invocation 的页面</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>测试内容</h2>
+        <ul>
+            <li>✅ 原型链继承关系</li>
+            <li>✅ toString 伪装检测</li>
+            <li>✅ Illegal Invocation 保护</li>
+            <li>✅ 环境完整性检测</li>
+        </ul>
+    </div>
+    
+    <script>
+        // 页面内嵌脚本（会在 JSDOM 中执行）
+        console.log('HTML 页面已加载');
+    </script>
+</body>
+</html>

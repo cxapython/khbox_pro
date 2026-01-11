@@ -1,0 +1,82 @@
+[KhBox] GET: [Document.head] -> type: object [HTMLHeadElement]
+[KhBox] Wrapping result as proxy for property: head
+[KhBox] GET: [Window.document] -> type: object [Document]
+[KhBox] Wrapping result as proxy for property: document
+[KhBox] ProxyObject cache hit: 000003F096177CF1
+[KhBox] GET: [Window.addEventListener] -> type: function
+[KhBox] GET: [Document.createElement] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.createElement] -> args:[string: "div"]
+[KhBox] QUERY: property 'onwheel' exists
+[KhBox] GET: [Document.addEventListener] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.addEventListener] -> args:[string: "wheel", object: Function]
+[KhBox] GET: [Document.addEventListener] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.addEventListener] -> args:[string: "mousemove", object: Function]
+[KhBox] GET: [Document.addEventListener] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.addEventListener] -> args:[string: "touchmove", object: Function]
+[KhBox] GET: [Document.addEventListener] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.addEventListener] -> args:[string: "click", object: Function]
+[KhBox] GET: [Document.addEventListener] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.addEventListener] -> args:[string: "keydown", object: Function]
+[KhBox] GET: [Navigator.plugins] -> type: object [Object]
+[KhBox] Wrapping result as proxy for property: plugins
+[KhBox] GET: [Window.addEventListener] -> type: function
+[KhBox] GET: [Window.CHAMELEON_LOADED] -> type: undefined
+[KhBox] GET: [Window.location] -> type: object [Location]
+[KhBox] Wrapping result as proxy for property: location
+[KhBox] GET: [Window.location.hostname] -> type: string, value: "demo.com"
+[KhBox] GET: [Window.location] -> type: object [Location]
+[KhBox] Wrapping result as proxy for property: location
+[KhBox] ProxyObject cache hit: 000003F09617F749
+[KhBox] GET: [Window.location.protocol] -> type: string, value: "https:"
+[KhBox] SET: [Document.cookie] = "checkcookie=true"
+[KhBox] [LazyLoad] Welded Document.cookie (get)
+[KhBox] GET: [Window.location] -> type: object [Location]
+[KhBox] Wrapping result as proxy for property: location
+[KhBox] ProxyObject cache hit: 000003F09617F749
+[KhBox] GET: [Window.location.hostname] -> type: string, value: "demo.com"
+[KhBox] GET: [Window.location] -> type: object [Location]
+[KhBox] Wrapping result as proxy for property: location
+[KhBox] ProxyObject cache hit: 000003F09617F749
+[KhBox] GET: [Window.location.protocol] -> type: string, value: "https:"
+[KhBox] SET: [Document.cookie] = "checkcookie=; expires=Thu, 01 Jan 1970 00:00:00 GMT"
+[KhBox] QUERY: property 'localStorage' exists
+[KhBox] GET: [Window.localStorage] -> type: object [Object]
+[KhBox] Wrapping result as proxy for property: localStorage
+[KhBox] GET: [Window.localStorage] -> type: object [Object]
+[KhBox] Wrapping result as proxy for property: localStorage
+[KhBox] ProxyObject cache hit: 000002BC964DEF99
+[KhBox] [LazyLoad] Welded Document.cookie (get)
+[KhBox] GET: [Window.localStorage.getItem] -> type: function
+[KhBox] CALL: caller:[Object] -> func:[Window.localStorage.getItem] -> args:[string: "hexin-v"]
+[KhBox] [LazyLoad] Welded Navigator.userAgent (get)
+[KhBox] GET: [Navigator.javaEnabled] -> type: function
+[KhBox] CALL: caller:[Navigator] -> func:[Navigator.javaEnabled] -> args:[]
+[KhBox] GET: [Navigator.plugins.length] -> type: number, value: 0
+[KhBox] GET: [Window.ActiveXObject] -> type: undefined
+[KhBox] GET: [Navigator.plugins.length] -> type: number, value: 0
+[KhBox] GET: [Navigator.plugins.length] -> type: number, value: 0
+[KhBox] GET: [Window.navigator] -> type: object [Navigator]
+[KhBox] Wrapping result as proxy for property: navigator
+[KhBox] ProxyObject cache hit: 000002BC964E01F1
+[KhBox] [LazyLoad] Welded Navigator.webdriver (get)
+[KhBox] QUERY: property 'localStorage' exists
+[KhBox] GET: [Navigator.msDoNotTrack] -> type: undefined
+[KhBox] GET: [Navigator.doNotTrack] -> type: undefined
+[KhBox] GET: [Navigator.language] -> type: string, value: "en-US"
+[KhBox] QUERY: property 'ontouchstart' exists
+[KhBox] GET: [Document.createElement] -> type: function
+[KhBox] CALL: caller:[Document] -> func:[Document.createElement] -> args:[string: "canvas"]
+[KhBox] GET: [Document.createElement#result.getContext] -> type: function
+[KhBox] CALL: caller:[HTMLCanvasElement] -> func:[Document.createElement#result.getContext] -> args:[string: "webgl2"]
+[KhBox] GET: [Navigator.languages] -> type: object [Array]
+[KhBox] GET: [Document.defaultCharset] -> type: undefined
+[KhBox] [LazyLoad] Welded Navigator.platform (get)
+[KhBox] [LazyLoad] Welded Navigator.vendor (get)
+[KhBox] GET: [Navigator.plugins] -> type: object [Object]
+[KhBox] Wrapping result as proxy for property: plugins
+[KhBox] ProxyObject cache hit: 000002BC964E0639
+[KhBox] GET: [Navigator.plugins] -> type: object [Object]
+[KhBox] Wrapping result as proxy for property: plugins
+[KhBox] ProxyObject cache hit: 000002BC964E0639
+[KhBox] GET: [Navigator.plugins.length] -> type: number, value: 0
+[KhBox] SET: [Window.CHAMELEON_LOADED] = true
